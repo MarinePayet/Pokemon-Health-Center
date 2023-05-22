@@ -10,7 +10,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.background {
+.background, .backgroundPatients {
     margin-top: 20px;
     background-color: rgba(0, 0, 0, 0.415);
     border-radius: 5px;
@@ -78,14 +78,13 @@ body {
     border-radius: 3px;
 }
 
-
 .health {
     background-color: #00c517;
-    width: 100px;
     height: 6px;
     border-radius: 2px;
     transition-duration: 2s;
 }
+
 
 .win {
     display: flex;
@@ -97,4 +96,8 @@ body {
     font-size: 100px;
     height: 300px;
     width: 100%;
+}
+
+.scream{
+    font-size: large;
 }
